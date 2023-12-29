@@ -1,4 +1,5 @@
 function binarySearch(list, target) {
+    //O(log n)
     const sortedList = list.sort()
     let left = 0;
     let rigth = sortedList.length - 1;
